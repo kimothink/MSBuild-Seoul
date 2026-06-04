@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">이종인 placeholder</title>
+  <desc id="desc">Placeholder portrait for speaker 이종인.</desc>
+  <rect width="640" height="640" fill="#101014"/>
+  <rect x="28" y="28" width="584" height="584" fill="none" stroke="#00a4ef" stroke-width="10"/>
+  <circle cx="320" cy="260" r="96" fill="#00a4ef"/>
+  <path d="M148 560c20-118 104-188 172-188s152 70 172 188" fill="#f25c54"/>
+  <text x="320" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#fff">이종인</text>
+</svg>

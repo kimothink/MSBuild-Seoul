@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-labelledby="title desc">
+  <title id="title">유저스틴 placeholder</title>
+  <desc id="desc">Placeholder portrait for speaker 유저스틴.</desc>
+  <rect width="640" height="640" fill="#101014"/>
+  <rect x="28" y="28" width="584" height="584" fill="none" stroke="#7b61ff" stroke-width="10"/>
+  <circle cx="320" cy="260" r="96" fill="#7b61ff"/>
+  <path d="M148 560c20-118 104-188 172-188s152 70 172 188" fill="#2bb673"/>
+  <text x="320" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="54" font-weight="700" fill="#fff">유저스틴</text>
+</svg>
