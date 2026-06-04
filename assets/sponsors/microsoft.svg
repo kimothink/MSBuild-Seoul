@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 220" role="img" aria-labelledby="title">
+  <title id="title">Microsoft</title>
+  <rect width="760" height="220" fill="#fff"/>
+  <g transform="translate(52 48)">
+    <rect width="58" height="58" fill="#f25022"/>
+    <rect x="66" width="58" height="58" fill="#7fba00"/>
+    <rect y="66" width="58" height="58" fill="#00a4ef"/>
+    <rect x="66" y="66" width="58" height="58" fill="#ffb900"/>
+  </g>
+  <text x="208" y="139" fill="#737373" font-family="Segoe UI, Arial, sans-serif" font-size="86" font-weight="600">Microsoft</text>
+</svg>
