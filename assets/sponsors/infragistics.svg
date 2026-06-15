@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 560" role="img" aria-labelledby="title">
-  <title id="title">Infragistics</title>
-  <rect width="520" height="560" fill="#fff"/>
-  <rect x="90" y="44" width="340" height="340" fill="#159be8"/>
-  <path d="M154 108h82v82h-82z" fill="#fff"/>
-  <path d="M256 108h124v240H154V220h72v58h154V178H256z" fill="#fff"/>
-  <text x="260" y="468" text-anchor="middle" fill="#77797f" font-family="Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="1">INFRAGISTICS</text>
-  <text x="456" y="432" fill="#77797f" font-family="Arial, sans-serif" font-size="18" font-weight="700">®</text>
-</svg>
