@@ -244,6 +244,47 @@
         height: 100%;
       }
 
+      .product-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+        margin-top: 30px;
+      }
+
+      .product {
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #fff;
+      }
+
+      .product img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 4 / 3;
+        object-fit: contain;
+        background: #fff;
+        padding: 18px;
+      }
+
+      .product-info {
+        min-height: 150px;
+        padding: 18px;
+        border-top: 1px solid var(--line);
+      }
+
+      .product h3 {
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.55;
+      }
+
+      .product-quantity {
+        margin: 12px 0 0;
+        color: var(--blue);
+        font-weight: 900;
+      }
+
       .slot {
         display: grid;
         grid-template-columns: 150px 1fr;
@@ -291,7 +332,8 @@
 
         .info-grid,
         .speaker-grid,
-        .sponsor-grid {
+        .sponsor-grid,
+        .product-grid {
           grid-template-columns: repeat(2, 1fr);
         }
       }
@@ -307,7 +349,8 @@
 
         .info-grid,
         .speaker-grid,
-        .sponsor-grid {
+        .sponsor-grid,
+        .product-grid {
           grid-template-columns: 1fr;
         }
 
@@ -447,6 +490,36 @@
                 <img src="assets/sponsors/infragistics.png" alt="Infragistics">
               </a>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="wrap">
+          <p class="kicker">Products</p>
+          <h2>상품</h2>
+          <div class="product-grid">
+            <article class="product">
+              <img src="assets/products/enbow-wireless-charging-mousepad.png" alt="엔보우 고속 무선 충전 15W 분리형 마우스패드 WCPADM">
+              <div class="product-info">
+                <h3>엔보우 고속 무선 충전 15W 분리형 마우스패드 WCPADM</h3>
+                <p class="product-quantity">수량 4개</p>
+              </div>
+            </article>
+            <article class="product">
+              <img src="assets/products/logitech-pebble-2-combo.png" alt="로지텍 PEBBLE 2 COMBO 키보드 마우스 세트">
+              <div class="product-info">
+                <h3>로지텍 PEBBLE 2 COMBO 키보드 마우스 세트</h3>
+                <p class="product-quantity">수량 1개</p>
+              </div>
+            </article>
+            <article class="product">
+              <img src="assets/products/logitech-lift-vertical.png" alt="로지텍 코리아 리프트 버티컬 인체공학 무선 블루투스 마우스 LIFT VERTICAL">
+              <div class="product-info">
+                <h3>로지텍 코리아 리프트 버티컬 인체공학 무선 블루투스 마우스 LIFT VERTICAL</h3>
+                <p class="product-quantity">수량 1개</p>
+              </div>
+            </article>
           </div>
         </div>
       </section>
